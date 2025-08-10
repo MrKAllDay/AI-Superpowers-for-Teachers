@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Superpowers for Teachers</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the comic book theme */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #1a202c; /* A dark slate background */
+            /* Halftone dot pattern for the background */
+            background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.1) 1px, transparent 0);
+            background-size: 20px 20px;
+        }
+
+        /* Use the 'Bangers' font for all headings to get that comic book feel */
+        h1, h2, h3 {
+            font-family: 'Bangers', cursive;
+            letter-spacing: 2px;
+        }
+
+        /* Custom text shadow to create a classic comic book outline effect */
+        .comic-title {
+            text-shadow: 4px 4px 0px #000;
+            -webkit-text-stroke: 2px #000;
+        }
+        
+        .comic-subtitle {
+            text-shadow: 2px 2px 0px #000;
+            -webkit-text-stroke: 1px #000;
+        }
+
+        /* Styling for the resource cards */
+        .tool-card {
+            border: 4px solid #000;
+            box-shadow: 8px 8px 0px #000;
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .tool-card:hover {
+            transform: translate(-4px, -4px);
+            box-shadow: 12px 12px 0px #000;
+        }
+
+        /* Styling for the action buttons */
+        .comic-button {
+            font-family: 'Bangers', cursive;
+            border: 3px solid #000;
+            box-shadow: 4px 4px 0px #000;
+            transition: all 0.2s ease-in-out;
+            letter-spacing: 1px;
+            margin-top: auto; /* Pushes button to the bottom */
+        }
+
+        .comic-button:hover {
+            background-color: #fff !important;
+            color: #000 !important;
+            transform: translate(-2px, -2px);
+            box-shadow: 6px 6px 0px #000;
+        }
+        
+        .comic-button:active {
+            transform: translate(4px, 4px);
+            box-shadow: none;
+        }
+
+        /* Angled background for section titles for a dynamic look */
+        .angled-bg {
+            background-color: #f59e0b; /* Amber color */
+            clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+            padding: 2rem 1rem;
+            margin-top: -20px;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body class="text-white">
+
+    <!-- Header Section -->
+    <header class="text-center py-16 px-4 bg-blue-600" style="clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);">
+        <h1 class="text-6xl md:text-8xl text-yellow-300 comic-title">AI SUPERPOWERS</h1>
+        <p class="text-2xl md:text-4xl comic-subtitle text-white mt-2">A One-Stop Toolkit for PreK-12 Teachers!</p>
+    </header>
+
+    <main class="container mx-auto px-6 py-12">
+
+        <!-- Category: All-in-One Platforms -->
+        <section class="mb-16">
+            <div class="angled-bg bg-red-600">
+                <h2 class="text-4xl md:text-5xl text-center comic-title text-white">ALL-IN-ONE PLATFORMS</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12 -mt-8 text-gray-300">These are your teacher sidekicks! Comprehensive tools designed to help with lesson planning, content creation, feedback, and more.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
+                <div class="tool-card bg-yellow-400 text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Magic School AI</h3>
+                    <p class="flex-grow my-4">The Swiss Army knife for teachers. Over 60+ tools to help with everything from lesson plans to student feedback.</p>
+                    <a href="https://www.magicschool.ai/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">ZAP! Visit Site</a>
+                </div>
+                <div class="tool-card bg-blue-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">SchoolAI</h3>
+                    <p class="flex-grow my-4">Create unique AI-powered spaces and chatbots for your classroom. Great for project-based learning and inquiry.</p>
+                    <a href="https://www.schoolai.co/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">POW! Visit Site</a>
+                </div>
+                <div class="tool-card bg-red-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Brisk Teaching</h3>
+                    <p class="flex-grow my-4">A Chrome extension that lives where you work (Docs, Slides, etc.) to level text, give feedback, and create materials.</p>
+                    <a href="https://www.briskteaching.com/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">BAM! Visit Site</a>
+                </div>
+                <div class="tool-card bg-gray-700 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Eduaide</h3>
+                    <p class="flex-grow my-4">Focuses on generating high-quality educational content, from planning resources to assessment questions.</p>
+                    <a href="https://www.eduaide.ai/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">GO! Visit Site</a>
+                </div>
+                 <div class="tool-card bg-yellow-400 text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Alayna AI</h3>
+                    <p class="flex-grow my-4">An advanced toolkit with a curriculum generator, slides maker, project designer, and grading assistant.</p>
+                    <a href="https://alayna.ai/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">BOOST! Visit Site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: Differentiation & Accessibility -->
+        <section class="mb-16">
+            <div class="angled-bg bg-blue-600">
+                 <h2 class="text-4xl md:text-5xl text-center comic-title text-white">DIFFERENTIATION & ACCESSIBILITY</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12 -mt-8 text-gray-300">Adapt content for every learner! While most All-in-One platforms have differentiation features, these tools are specialists.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 justify-center max-w-4xl mx-auto">
+                <div class="tool-card bg-red-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Diffit</h3>
+                    <p class="flex-grow my-4">The undisputed champion of differentiation. Adapts any text or topic to different reading levels in seconds.</p>
+                    <a href="https://web.diffit.me/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">LEVEL UP! Visit Site</a>
+                </div>
+                <div class="tool-card bg-yellow-400 text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Conker AI</h3>
+                    <p class="flex-grow my-4">Create standards-aligned quizzes with built-in accommodations like read-aloud to support all learners.</p>
+                    <a href="https://www.conker.ai/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">ADAPT! Visit Site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: Interactive Learning & Assessment -->
+        <section class="mb-16">
+            <div class="angled-bg bg-yellow-400">
+                <h2 class="text-4xl md:text-5xl text-center comic-title text-white">INTERACTIVE LEARNING & ASSESSMENT</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12 -mt-8 text-gray-300">Power up your classroom activities! These tools use AI to generate quizzes, games, and real-time formative assessments.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="tool-card bg-red-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Curipod</h3>
+                    <p class="flex-grow my-4">Create interactive, engaging lessons with polls, word clouds, and drawings. Great for full class participation.</p>
+                    <a href="https://curipod.com/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">ENGAGE! Visit Site</a>
+                </div>
+                <div class="tool-card bg-blue-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Quizizz (Wayground)</h3>
+                    <p class="flex-grow my-4">Now Wayground, this platform uses AI to create and differentiate quizzes from any material to gamify learning.</p>
+                    <a href="https://wayground.com/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">QUIZ! Visit Site</a>
+                </div>
+                <div class="tool-card bg-yellow-400 text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Kahoot!</h3>
+                    <p class="flex-grow my-4">The classic classroom game platform, now with AI features to generate kahoots from PDFs and text prompts.</p>
+                    <a href="https://kahoot.com/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">PLAY! Visit Site</a>
+                </div>
+                <div class="tool-card bg-red-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Formative</h3>
+                    <p class="flex-grow my-4">An all-in-one platform to instruct, assess, and adjust in real-time, with an AI assistant named Luna.</p>
+                    <a href="https://www.formative.com/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">ASSESS! Visit Site</a>
+                </div>
+                <div class="tool-card bg-blue-600 text-white p-6 rounded-lg col-span-1 md:col-span-2 lg:col-span-4">
+                    <h3 class="text-3xl comic-subtitle">MegaMinds</h3>
+                    <p class="flex-grow my-4">Transform lessons into 3D immersive, interactive experiences and gamified assessments that students can explore together.</p>
+                    <a href="https://gomegaminds.com/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">IMMERSE! Visit Site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: Design & Creativity -->
+        <section class="mb-16">
+            <div class="angled-bg bg-red-600">
+                <h2 class="text-4xl md:text-5xl text-center comic-title text-white">KAPOW! DESIGN & CREATIVITY</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12 -mt-8 text-gray-300">Unleash your creative potential! Generate stunning presentations, graphics, and classroom materials in minutes.</p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="tool-card bg-yellow-400 text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Canva for Education</h3>
+                    <p class="flex-grow my-4">The go-to for visual communication. Thousands of templates for lessons, activities, and classroom decor. Free for educators!</p>
+                    <a href="https://www.canva.com/education/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">DESIGN! Visit Site</a>
+                </div>
+                <div class="tool-card bg-blue-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Adobe Express</h3>
+                    <p class="flex-grow my-4">Quickly create graphics, photos, and videos with powerful AI features. Free for K-12 schools and districts.</p>
+                    <a href="https://www.adobe.com/education/express/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">CREATE! Visit Site</a>
+                </div>
+                <div class="tool-card bg-gray-700 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Napkin AI</h3>
+                    <p class="flex-grow my-4">A unique tool for collecting ideas and notes. It surfaces related thoughts automatically, helping you make new connections.</p>
+                    <a href="https://app.napkin.ai/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">IDEATE! Visit Site</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Category: Student-Facing Tools -->
+        <section class="mb-16">
+            <div class="angled-bg bg-blue-600">
+                <h2 class="text-4xl md:text-5xl text-center comic-title text-white">STUDENT-FACING SIDEKICKS</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12 -mt-8 text-gray-300">Empower your students! These are safe, teacher-controlled tools that allow students to use AI for research, feedback, and tutoring.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="tool-card bg-yellow-400 text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Magic Student</h3>
+                    <p class="flex-grow my-4">The student-facing version of Magic School. Provides AI tools for writing feedback, research, and study support.</p>
+                    <a href="https://student.magicschool.ai/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">EMPOWER! Visit Site</a>
+                </div>
+                <div class="tool-card bg-blue-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">AI StudyBud</h3>
+                    <p class="flex-grow my-4">An AI study partner that can create flashcards, quizzes, and answer questions from uploaded notes or documents.</p>
+                    <a href="https://www.studybuds.org/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">STUDY! Visit Site</a>
+                </div>
+                <div class="tool-card bg-red-600 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">SchoolAI for Students</h3>
+                    <p class="flex-grow my-4">Allows students to interact with custom, teacher-created AI spaces for safe and focused inquiry.</p>
+                    <a href="https://www.schoolai.co/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">INQUIRE! Visit Site</a>
+                </div>
+                <div class="tool-card bg-gray-700 text-white p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Brisk for Students</h3>
+                    <p class="flex-grow my-4">Empowers students to get feedback on their writing and use AI to understand complex topics.</p>
+                    <a href="https://www.briskteaching.com/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">LEARN! Visit Site</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Category: The LLM Command Center -->
+        <section class="mb-16">
+            <div class="angled-bg bg-gray-800">
+                 <h2 class="text-4xl md:text-5xl text-center comic-title text-white">THE LLM COMMAND CENTER</h2>
+            </div>
+            <p class="text-center text-lg max-w-3xl mx-auto mb-12 -mt-8 text-gray-300">These are the powerful engines behind many AI tools. Understanding their unique strengths helps you choose the right one for any task.</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="tool-card bg-white text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">ChatGPT</h3>
+                    <p class="font-semibold text-lg">Specialty: Creative & Conversational</p>
+                    <p class="flex-grow my-4">The all-rounder. Best for brainstorming, creative writing, generating examples, and acting as a thought partner.</p>
+                    <a href="https://chat.openai.com/" target="_blank" class="comic-button bg-gray-700 text-white text-center text-2xl py-2 rounded-md">CHAT! Visit Site</a>
+                </div>
+                <div class="tool-card bg-white text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Gemini</h3>
+                    <p class="font-semibold text-lg">Specialty: Real-Time & Multimodal</p>
+                    <p class="flex-grow my-4">Google's powerhouse. Excels at pulling real-time information from the web and analyzing images, videos, and text together.</p>
+                    <a href="https://gemini.google.com/" target="_blank" class="comic-button bg-blue-600 text-white text-center text-2xl py-2 rounded-md">EXPLORE! Visit Site</a>
+                </div>
+                <div class="tool-card bg-white text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Microsoft Copilot</h3>
+                    <p class="font-semibold text-lg">Specialty: Workplace Integration</p>
+                    <p class="flex-grow my-4">Your Microsoft 365 assistant. Great for summarizing documents, creating presentations, and drafting emails within the MS ecosystem.</p>
+                    <a href="https://copilot.microsoft.com/" target="_blank" class="comic-button bg-red-600 text-white text-center text-2xl py-2 rounded-md">INTEGRATE! Visit Site</a>
+                </div>
+                <div class="tool-card bg-white text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Claude</h3>
+                    <p class="font-semibold text-lg">Specialty: Nuanced Writing & Deep Analysis</p>
+                    <p class="flex-grow my-4">Excels at sophisticated writing and coding tasks. Its large context window makes it ideal for analyzing long documents or research papers.</p>
+                    <a href="https://claude.ai/" target="_blank" class="comic-button bg-purple-600 text-white text-center text-2xl py-2 rounded-md">WRITE! Visit Site</a>
+                </div>
+                <div class="tool-card bg-white text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">Perplexity</h3>
+                    <p class="font-semibold text-lg">Specialty: Research & Citations</p>
+                    <p class="flex-grow my-4">A conversational search engine. Fantastic for research because it provides direct answers and always includes citations.</p>
+                    <a href="https://www.perplexity.ai/" target="_blank" class="comic-button bg-yellow-400 text-black text-center text-2xl py-2 rounded-md">RESEARCH! Visit Site</a>
+                </div>
+                 <div class="tool-card bg-white text-black p-6 rounded-lg">
+                    <h3 class="text-3xl comic-subtitle">NotebookLM</h3>
+                    <p class="font-semibold text-lg">Specialty: Source-Grounded Analysis</p>
+                    <p class="flex-grow my-4">Your personal research assistant. You provide the sources (Docs, PDFs), and it becomes an expert only on that material.</p>
+                    <a href="https://notebooklm.google.com/" target="_blank" class="comic-button bg-gray-700 text-white text-center text-2xl py-2 rounded-md">ANALYZE! Visit Site</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 bg-gray-900 border-t-4 border-black">
+        <p class="text-gray-400">Created with AI for amazing teachers everywhere.</p>
+        <p class="text-gray-500 text-sm mt-2">Always review AI-generated content for accuracy and appropriateness before use with students.</p>
+    </footer>
+
+</body>
+</html>
